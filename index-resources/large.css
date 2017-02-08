@@ -1,0 +1,64 @@
+/* .733 1.466 2.199 2.932 3.665 4.398 5.131 */
+/*         1.832                            */
+/* .666 1.333 2     2.666 3.333 4     4.666 5.333 */
+html {
+  background: url(highway-crop.jpg) center right / cover fixed;
+  font-size: 20px;
+}
+
+main {
+  color: #445566;
+  border: 1px solid rgba(255,255,255,.1);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px 0px;
+  background-color: rgba(255, 255, 255, 0.74902);
+  max-width: 40em;
+  margin: 4.666em 6em 1.333em auto;
+  border-radius: .333em;
+  padding: 1.333em 0;
+}
+
+img.me {
+  width: 10em;
+  margin: .165em 1em 1em 0;
+  float: left;
+}
+
+header, section, footer {
+  padding: 0 1.333em;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 1.333em;
+  border-bottom: .083em solid rgba(68, 85, 102,.25);
+}
+
+.bio {
+  clear: both;
+}
+
+
+footer {
+  padding-top: .666em;
+  border-top: .083em solid rgba(255, 255, 255, .5);
+}
+
+footer ul li {
+  display: inline;
+  padding-right: 1.333em;
+}
+
+h1 {
+  font-size: 1.9em;
+  color: #61829c;
+  margin: 0 0 .165em;
+}
+
+h2 {
+  font-size: .95em;
+  color: #667788;
+}
+
+a {
+  color: #2b82ad;
+}
