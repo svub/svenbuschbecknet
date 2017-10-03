@@ -12,6 +12,7 @@ header {
   height: 12em;
   display: table-cell;
   vertical-align: bottom;
+  width: 640px; /* 100% not supported */
 }
 
 header, section, footer {
@@ -26,7 +27,6 @@ img.me {
   width: 6em;
   margin: .165em 1em 1em 0;
   float: left;
-  width: 640px; /* 100% not supported */
 }
 
 h1, h2 {
