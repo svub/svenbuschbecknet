@@ -6,21 +6,27 @@ html {
   font-size: 20px;
 }
 
+main, img.me {
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: .333em;
+  background-color: rgba(255, 255, 255, 0.74902);
+}
+
 main {
   color: #445566;
-  border: 1px solid rgba(255,255,255,.1);
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px 0px;
-  background-color: rgba(255, 255, 255, 0.74902);
   max-width: 40em;
   margin: 4.666em 6em 1.333em auto;
-  border-radius: .333em;
   padding: 1.333em 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px 0px;
 }
 
 img.me {
   width: 10em;
   margin: .165em 1em 1em 0;
   float: left;
+  padding: .333em .333em 2.666em .333em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+  transform: rotate(-2deg);
 }
 
 header, section, footer {
