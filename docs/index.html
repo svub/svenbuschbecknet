@@ -1,157 +1,208 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="index-resources/common.css">
-    <link rel="stylesheet" type="text/css" href="index-resources/mobile.css" media="screen and (max-width: 640px) and (orientation: portrait), screen and (max-height: 640px) and (orientation: landscape)">
-    <link rel="stylesheet" type="text/css" href="index-resources/large.css" media="screen and (min-width: 640px) and (min-height: 640px)">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Lato:700' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="index-resources/modernizr-custom.js"></script>
-    <script type="text/javascript">
-    (function(){
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="index-resources/common.css">
+  <link rel="stylesheet" type="text/css" href="index-resources/mobile.css"
+    media="screen and (max-width: 640px) and (orientation: portrait), screen and (max-height: 640px) and (orientation: landscape)">
+  <link rel="stylesheet" type="text/css" href="index-resources/large.css"
+    media="screen and (min-width: 640px) and (min-height: 640px)">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Lato:700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="index-resources/modernizr-custom.js"></script>
+  <script type="text/javascript">
+    (function () {
       var d = document, s = d.createElement('script');
       s.type = 'text/javascript';
       s.src = 'index-resources/respond.min.js';
       Modernizr.mq('(min-width:0)') || d.getElementsByTagName('head')[0].appendChild(s);
     })();
-    </script>
-    <script>
+  </script>
+  <script>
     // String.trim courtesy of http://javascript.crockford.com/remedial.html
-    if (! String.prototype.trim) { String.prototype.trim = function () { return this.replace(/^\s*(\S*(?:\s+\S+)*)\s*$/, "$1"); }; }
-    </script>
-    <meta name="robots" content="index">
-    <link rel="shortcut icon" href="favicon.jpg">
-    <link rel="icon" href="/wp-content/uploads/2017/02/cropped-highway-mobile-32x32.jpg" sizes="32x32">
-    <link rel="icon" href="/wp-content/uploads/2017/02/cropped-highway-mobile-192x192.jpg" sizes="192x192">
-    <link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2017/02/cropped-highway-mobile-180x180.jpg">
-    <meta name="msapplication-TileImage" content="/wp-content/uploads/2017/02/cropped-highway-mobile-270x270.jpg">
-    <title>Sven Buschbeck - Web Technology Expert, Project Manager, Photographer, Explorer.</title>
-    <link rel="canonical" id="page_url" href="http://svenbuschbeck.net/index.html">
-    <meta name="description" content="Hi! I'm Sven Buschbeck - Web Technology Expert, Project Manager, Entrepreneur, Usability Engineer, and Explorer. Learn more about me and my projects and get in touch!">
-    <meta name="keywords" content="Sven Buschbeck, web technology, web development, project management, usability, umeedoo, impact, meteor, coffeescript, stylus, pug">
-    <meta name="author" content="Sven Buschbeck">
-    <meta name="thumbnail" content="index-resources/me.jpg">
-    <meta property="og:site_name" content="svenbuschbeck.net">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="http://svenbuschbeck.net">
-    <meta property="og:title" content="Sven Buschbeck - Entrepreneur, Web Technology Expert, Project Manager, Usability Engineer, Explorer.">
-    <meta property="og:description" content="Hi! I'm Sven Buschbeck - Web Technology Expert, Project Manager, Entrepreneur, Usability Engineer, and Explorer. Learn more about me and my projects like Umeedoo. And get in touch!">
-    <meta property="og:image" content="index-resources/me.jpg">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="photo">
-    <meta name="twitter:site" content="@SvenBuschbeck">
-    <meta name="twitter:url" content="http://svenbuschbeck.net">
-    <meta name="twitter:title" content="Sven Buschbeck - Entrepreneur, Web Technology Expert, Project Manager, Usability Engineer, Explorer.">
-    <meta name="twitter:description" content="Hi! I'm Sven Buschbeck - Web Technology Expert, Project Manager, Entrepreneur, Usability Engineer, and Explorer. Learn more about me and my projects and get in touch!">
-    <meta name="twitter:image" content="index-resources/me.jpg">
-    <meta name="twitter:image:width" content="512">
-    <meta name="twitter:image:height" content="384">
-  </head>
-  <body>
-    <main>
-      <article>
-        <header>
-          <h1 class="name" itemprop="name">Sven Buschbeck</h1>
-          <h2 class="headline">Web Technology Expert, Project Manager, Photographer, Explorer.</h2>
-        </header>
-        <section>
-          <img class="me" alt="Sven Buschbeck picture" src="index-resources/me.jpg">
-          <p>Hi! I'm Sven, freelance web technology consultant and full-stack dev. I love latest technologies, appreciate rock-solid industry standards, and strongly believe in Open Source.</p>
-          <p>Twelve years old, I learned Javascript, HTML and CSS to create interactive websites, later on I studied computer science and graphic design and started working in the web technology sector at about the same time. Since 2013, I'm a freelance web developer and consultant. Throughout my career, I've been working with privately held companies, universities, research centers, start-ups, as well as NGOs/NPOs. Also, I'm a <a  href="https://www.instagram.com/sven.buschbeck/" target="_blank">passionate photographer</a>, love the outdoors, as well as traveling and immersing into new cultures and idea. I lived in Germany, Italy, Greece, Australia, and Taiwan&mdash;home is where my bed is.</p>
+    if (!String.prototype.trim) { String.prototype.trim = function () { return this.replace(/^\s*(\S*(?:\s+\S+)*)\s*$/, "$1"); }; }
+  </script>
+  <meta name="robots" content="index">
+  <link rel="shortcut icon" href="favicon.jpg">
+  <link rel="icon" href="/wp-content/uploads/2017/02/cropped-highway-mobile-32x32.jpg" sizes="32x32">
+  <link rel="icon" href="/wp-content/uploads/2017/02/cropped-highway-mobile-192x192.jpg" sizes="192x192">
+  <link rel="apple-touch-icon-precomposed" href="/wp-content/uploads/2017/02/cropped-highway-mobile-180x180.jpg">
+  <meta name="msapplication-TileImage" content="/wp-content/uploads/2017/02/cropped-highway-mobile-270x270.jpg">
+  <title>Sven Buschbeck - Web Technology Expert, Project Manager, Photographer, Explorer.</title>
+  <link rel="canonical" id="page_url" href="http://svenbuschbeck.net/index.html">
+  <meta name="description"
+    content="Hi! I'm Sven Buschbeck - Web Technology Expert, Project Manager, Entrepreneur, Usability Engineer, and Explorer. Learn more about me and my projects and get in touch!">
+  <meta name="keywords"
+    content="Sven Buschbeck, web technology, web development, project management, usability, umeedoo, impact, meteor, coffeescript, stylus, pug">
+  <meta name="author" content="Sven Buschbeck">
+  <meta name="thumbnail" content="index-resources/me.jpg">
+  <meta property="og:site_name" content="svenbuschbeck.net">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="http://svenbuschbeck.net">
+  <meta property="og:title"
+    content="Sven Buschbeck - Entrepreneur, Web Technology Expert, Project Manager, Usability Engineer, Explorer.">
+  <meta property="og:description"
+    content="Hi! I'm Sven Buschbeck - Web Technology Expert, Project Manager, Entrepreneur, Usability Engineer, and Explorer. Learn more about me and my projects like Umeedoo. And get in touch!">
+  <meta property="og:image" content="index-resources/me.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="photo">
+  <meta name="twitter:site" content="@SvenBuschbeck">
+  <meta name="twitter:url" content="http://svenbuschbeck.net">
+  <meta name="twitter:title"
+    content="Sven Buschbeck - Entrepreneur, Web Technology Expert, Project Manager, Usability Engineer, Explorer.">
+  <meta name="twitter:description"
+    content="Hi! I'm Sven Buschbeck - Web Technology Expert, Project Manager, Entrepreneur, Usability Engineer, and Explorer. Learn more about me and my projects and get in touch!">
+  <meta name="twitter:image" content="index-resources/me.jpg">
+  <meta name="twitter:image:width" content="512">
+  <meta name="twitter:image:height" content="384">
+</head>
+
+<body>
+  <main>
+    <article>
+      <header>
+        <h1 class="name" itemprop="name">Sven Buschbeck</h1>
+        <h2 class="headline">Web Technology Expert, Technical Writer, Project Manager, Photographer, Explorer.</h2>
+      </header>
+      <section>
+        <img class="me" alt="Sven Buschbeck picture" src="index-resources/me.jpg">
+        <p>
+          Hi! I'm Sven, freelance web technology consultant, technical writer, and full-stack dev.
+          I love applied technologies and strongly believe in Open Source.
+        </p>
+        <p>
+          Twelve years old, I learned Javascript, HTML and CSS to create interactive websites,
+          later on studied computer science and graphic design and started working in the web technology sector
+          at about the same time.
+          Since 2013, I'm a freelance web technology consultant and developer
+          with a strong background in technical writing, publications, articles, and white papers.
+          Throughout my career, I've been working with privately held companies, universities,
+          research centers, start-ups, as well as NGOs/NPOs.
+          Also, I'm a <a href="https://www.instagram.com/sven.buschbeck/" target="_blank">passionate photographer</a>,
+          love the outdoors, as well as traveling and immersing into new cultures and ideas.
+          I lived in Germany, Italy, Greece, Australia, and Taiwan&mdash;home is where my bed is.</p>
+        <p>
+          I'm always seeking for new collaborations and opportunities, get in touch at <a
+            href="mailto:mail@svenbuschbeck.net">me@svenbuschbeck.net</a>.
+          I'm happy to support you and to give special rates for NGOs/NPOs.</p>
+        </p>
+        <details>
+          <summary>Skills</summary>
           <p>
-            I'm always seeking for new collaborations and opportunities, get in touch at <a href="mailto:me@svenbuschbeck.net">me@svenbuschbeck.net</a>. I'm happy to support you and to give special rates for NGOs/NPOs.</p>
+          <ul>
+            <li>
+              technology - consulting, interdisciplinary application and combination, future developments
+            </li>
+            <li>
+              communication - technical writing, software documentation, publications, articles, English
+              and German
+            </li>
+            <li>
+              social - conflict management, negotiations, integration, cultural diversity
+            </li>
+            <li>
+              management - feasibility analysis, project management, team lead, agile/Scrum
+            </li>
+          </ul>
+        </p>
+          <p>
+          Technical skills:
+          CoffeeScript/ES6 (4y), CSS3/Stylus/LessCSS (3y), HTML5/Pug (3y), Meteor/Node.js (4y),
+          Python (1y), PHP/Laravel (3y+), Java (5y+), Javascript (5y+)
           </p>
-          <details>
-            <summary>Project management</summary>
-            <p>Scrum, feasibility analysis, technology selection, and on-time delivery. International and intercultural teamwork experience as well as interdiciplinary collaboration, e.g. graphic design, marketing/sales, science and philosophy. </p>
-          </details>
-          <details>
-            <summary>Technology experience</summary>
-            A few technologies I'm particularily experienced in are
-            <ul>
-              <li>Latest: CoffeeScript/ES6 (4y), CSS3/Stylus/Less (3y), Python (1y), HTML5/Pug (3y), Meteor/Node.js (4y)</li>
-              <li>Industry standards: PHP/Laravel (3y+), Java/Spring (5y+), Javascript/JQuery (5y+), CSS3/Bootstrap (5y+)</li>
-            </ul>
-          </details>
-          <details>
-            <summary>Project examples</summary>
-            Here are a few projects I've been working on.
-            <ul>
-              <li><a href="http://umeedoo.net/" target="_blank">Umeedoo</a>, find adventures and adventurers. Umeedoo</a> - created with CoffeeScript, Jade, Less on Meteor</li>
-            <li><a>Impact</a>, show and share your ideas and projects, find supporters. - hybrid app created with CoffeeScript, Stylus, Pug on Meteor - impact-app.co is currently offline <li>
-              <li><a href="http://www.joincargo.com/en">Join Cargo</a>, utilize available space on trucks - PHP on Laravel with Javascript and Bootstrap</li>
-              <li><a href="http://localeyesapp.com/">Local Eyes</a>, local news and events - Javascript, web push notifications</li>
-            </ul>
-            Most of my projects have been internal though - or part of research projects and are thus not available any more.
-          </details>
-          <details>
-            <summary>Employers</summary>
-            <ul>
-              <li>
-                <a href="http://gsbtb.org" target="_blank">
-                  Give Something Back To Berlin NPO
-                </a>
-                (Berlin, Germany) - Web development, consulting
-              </li>
-              <li>
-                <a href="http://scify.gr/site/en" target="_blank">
-                  SciFY NPO
-                </a>
-                (Athens, Greece) - Web development, consulting, workshops
-              </li>
-              <li>
-                <a href="http://www.dfki.de/web/?set_language=en&cl=en" target="_blank">
-                  German Research Center for Artificial Intelligence
-                </a>
-                (Saarbruecken, Germany) - Field of Human Computer Interaction and Semantic Web
-              </li>
-              <li>
-                <a href="http://www.unitn.it/en" target="_blank">
-                  University of Trento
-                </a>
-                (Trento, Italy) - Field of Semanic Web and UI
-              </li>
-              <li>
-                <a href="http://www.allevia.de/" target="_blank">
-                  Allevia GmbH
-                </a>
-                (Augsburg, Germany) - CMS development, e-marketing
-              </li>
-            </ul>
-          </details>
-        </section>
-        <footer>
-          <ul class="links">
-              <li>
+        </details>
+        <details>
+          <summary>Projects</summary>
+          <ul>
+            <li>
+              <a href="http://nimiq.com" target="_blank">
+                Nimiq, the first browser-based blockchain.
+              </a>
+              (since end of 2017, remotely)
+              - Communication, technical writing, software documentation, white paper, front-end/web development
+              - Blog posts, tutorials, developer communication, Markdown, Jekyll, Vue.js, JavaScript
+            </li>
+            <li>
+              <a href="umeedoo" target="_blank">
+                Umeedoo, find people with shared interests
+              </a>
+              (2014-2015, remotely)
+              - Full-Stack dev, project management, marketing, presentation, pitch, 2nd price in ACEIN Entrepreneurship
+              Bootcamp Feb 2015 (Athens, Greece)
+              - CoffeeScript/Meteor.js/Node.js, LessCSS/Stylus, HTML5/Pug
+            </li>
+            <li>
+              <a href="http://gsbtb.org" target="_blank">
+                Give Something Back To Berlin NPO
+              </a>
+              (2016, Athens, Greece)
+              - Web development, consulting
+              - HTML, JavaScript, CSS/Bootstrap
+            </li>
+            <li>
+              <a href="http://scify.gr/site/en" target="_blank">
+                SciFY NPO, cutting-edge technology free for all
+              </a>
+              (2014-2015, Athens, Greece)
+              - Web development, consulting, workshops
+              - JavaScript/JQuery, CSS/Bootstrap, PHP/Laravel
+            </li>
+            <li>
+              <a href="http://www.dfki.de/web/?set_language=en&cl=en" target="_blank">
+                German Research Center for Artificial Intelligence
+              </a>
+              (2009-2012, Saarbruecken, Germany)
+              - Scientific researcher in the field of Human Computer Interaction and Semantic Web, Intelligent User
+              Interfaces
+              - Java/GWT, CSS, scientific publications and presentations
+            </li>
+            <li>
+              <a href="http://www.unitn.it/en" target="_blank">
+                University of Trento, Department of Computer Science
+              </a>
+              (2008-2009, Trento, Italy)
+              - Jr. Researcher in the field of Semantic Web and User Interfaces
+              - RDF/SARQL. Java/GWT, CSS, Java EE, scientific publications and presentations
+            </li>
+            <li>
+              <a href="http://www.allevia.de/" target="_blank">
+                Allevia GmbH
+              </a>
+              (2007-2008, Augsburg, Germany)
+              - CMS development, e-marketing
+              - PHP, JavaScript, HTML, CSS
+            </li>
+          </ul>
+        </details>
+      </section>
+      <footer>
+        <ul class="links">
+          <!-- <li>
                 <a href="resume"> Résumé</a>
-              </li>
-              <li>
-                <a href="http://umeedoo.net/" target="_blank"> Umeedoo</a>
               </li>
               <li>
                 <a href="blog"> Tech Blog</a>
               </li>
               <li>
                 <a href="http://svenbuschbeck.photography"> Photography</a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/svenbuschbeck" target="_blank"> @LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/sven.buschbeck" target="_blank"> @Instagram
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/svub" target="_blank"> @GitHub
-                </a>
-              </li>
-          </ul>
-        </footer>
-      </article>
-    </main>
-  </body>
+              </li> -->
+          <li>
+            <a href="https://www.linkedin.com/in/svenbuschbeck" target="_blank"> @LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sven.buschbeck" target="_blank"> @Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/svub" target="_blank"> @GitHub
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </article>
+  </main>
+</body>
+
 </html>
-
-
