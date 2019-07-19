@@ -1,0 +1,70 @@
+html {
+    font-size: 19px;
+}
+
+main {
+    background: #222;
+    color: #ffeedd;
+}
+
+header {
+    background: url(highway-mobile.jpg) center right / cover;
+    height: 12em;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 640px;
+    /* 100% not supported */
+}
+
+header,
+section,
+footer {
+    padding: 1.333em;
+}
+
+section {
+    text-align: justify;
+}
+
+img.me {
+    width: 5em;
+    margin: .165em 1em 1em 0;
+    float: left;
+}
+
+h1,
+h2 {
+    background: rgba(0, 0, 0, .5);
+    padding: .165em;
+}
+
+h1 {
+    display: inline;
+    font-size: 1.5em;
+    position: relative;
+    top: -.165em;
+}
+
+h1:after {
+    white-space: pre;
+    content: '\A';
+}
+
+h2 {
+    display: inline;
+    font-size: .8em;
+    margin-top: .165em;
+}
+
+a {
+    color: #85c2e0;
+}
+
+@media screen and (orientation: landscape) and (min-width: 640px) {
+
+    header {
+        width: 960px;
+        /* 100% not supported */
+    }
+
+}

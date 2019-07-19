@@ -1,0 +1,77 @@
+/* .733 1.466 2.199 2.932 3.665 4.398 5.131 */
+/*         1.832                            */
+/* .666 1.333 2     2.666 3.333 4     4.666 5.333 */
+html {
+    background: url(highway-crop.jpg) center right / cover fixed;
+    font-size: 20px;
+}
+
+main,
+img.me {
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: .333em;
+    background-color: rgba(235, 235, 235, 0.86);
+}
+
+main {
+    color: #3d4c5c;
+    max-width: 40em;
+    margin: 3.666em 4.5em 1.333em auto;
+    padding: 2.333em .666em .8em .666em;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px 0px;
+}
+
+img.me {
+    width: 10em;
+    margin: .1em 1.3em 1em -0.333em;
+    float: left;
+    padding: .333em .333em 2.666em .333em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+    transform: rotate(-2deg);
+}
+
+header,
+section,
+footer {
+    padding: 0 2.333em;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 1.333em;
+    border-bottom: .083em solid rgba(68, 85, 102, .25);
+}
+
+p {
+  text-align: justify;
+}
+
+.bio {
+    clear: both;
+}
+
+
+footer {
+    padding-top: .666em;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: 1.333em;
+}
+
+h1 {
+    font-size: 1.9em;
+    color: #3d5161;
+    margin: 0 0 .333em;
+}
+
+h2 {
+    font-size: .92em;
+    color: #667788;
+    color: #3d5161;
+}
+
+a {
+    color: #2b82ad;
+}
