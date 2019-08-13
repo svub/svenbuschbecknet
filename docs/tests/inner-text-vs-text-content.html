@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>innerText vs textContent</title>
+</head>
+<body>
+    <h1>innerText</h1>
+    <div id="innerText"></div>
+    <h1>textContent</h1>
+    <div id="textContent"></div>
+   <script>
+       const text = `Line one,
+                     line two,
+                     line three!`;
+       document.getElementById('innerText').innerText = text;
+       document.getElementById('textContent').textContent = text;
+   </script>
+</body>
+</html>
