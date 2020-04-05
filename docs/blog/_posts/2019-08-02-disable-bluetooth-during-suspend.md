@@ -1,6 +1,12 @@
+---
+layout: post
+title:  "Laptop wakes up during sleep"
+date:   2019-08-02 21:36:14 +0800
+categories: linux fedora
+---
 # Laptop wakes up during sleep
 
-Running Fedora 29, I had an issue with my laptop waking up during sleep.
+Running Fedora 29, my laptop had sleeping issues. It just kept waking up during sleep.
 Poor laptop.
 Checked for wake-on-lan WOL > nope.
 Checked for bluetooth > suspend with bluetooth headset on > turn it off > laptop wakes up > bingo!
@@ -68,3 +74,13 @@ sudo systemctl start bluetooth-reload.service
 ```
 
 You can test it the same way as before. No reboot needed for me. :)
+
+# Bonus: find modules
+
+Next thing that can to my mind is to disable WiFi during sleep.
+Just draining the battery and I don't need it.
+How to find the module?
+There are two options, `lsusb` and `lspci`,
+listing USB and PCI devices.
+If you're not sure with is yours, try both and see if you get something useful.
+Fore example, `lspci -vvnn | grep -A 9 Network` lists the kernel module being used for may WiFi.
